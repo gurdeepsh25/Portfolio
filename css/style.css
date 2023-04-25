@@ -219,3 +219,8 @@ img {
 .nav__close:hover {
   color: var(--first-color-alt);
 }
+
+/* ====== Show Menu ====== */
+.show-menu {
+  bottom: 0;
+}
