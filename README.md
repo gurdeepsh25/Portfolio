@@ -32,7 +32,7 @@ This is an Amazon Clone web application built using HTML, CSS, and JavaScript as
 ## Contact Me
 
 - Email: gurdeepsh25@gmail.com
-- LinkedIn: linkedin.com/gurdeepsh25
+- LinkedIn: https://www.linkedin.com/in/gurdeepsh25/
 - Personal website: https://gurdeepsh25.github.io/Portfolio/
 
 Feel free to reach out to me for any work-related inquiries or just to say hello!
