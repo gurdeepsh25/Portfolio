@@ -10,6 +10,8 @@
       href="https://unicons.iconscout.com/release/v4.0.8/css/line.css"
     />
 
+    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+
     <link rel="stylesheet" href="css/style.css" />
 
     <title>Portfolio</title>
@@ -159,7 +161,7 @@
         <span class="section__subtitle">My Introduction</span>
 
         <div class="about__container container grid">
-          <img src="assets/imgs/about.jpg" alt="" class="about__img" />
+          <img src="assets/imgs/about03.png" alt="" class="about__img" />
 
           <div class="about__data">
             <p class="about__description">
@@ -448,7 +450,8 @@
                     Information Technology (Class 11-12)
                   </h3>
                   <span class="qualification__subtitle"
-                    >Govt Model Sr Sec School Sector 22-A Chandigarh</span
+                    >Govt Model Senior Secondary School Sector 22-A
+                    Chandigarh</span
                   >
                   <div class="qualification__calendar">
                     <i class="uil uil-calendar-alt"></i> 2018 - 2020
@@ -761,9 +764,87 @@
           </div>
         </div>
       </section>
+
+      <!-- ====== Portfolio ====== -->
+      <section class="portfolio section" id="portfolio">
+        <h2 class="section__title">Portfolio</h2>
+        <span class="section__subtitle">Most recent work</span>
+
+        <div class="portfolio__container container swiper mySwiper">
+          <div class="swiper-wrapper">
+            <!-- ====== Portfolio 1 ====== -->
+            <div class="portfolio__content grid swiper-slide">
+              <img
+                src="assets/imgs/portfolio01.png"
+                alt=""
+                class="portfolio__img"
+              />
+
+              <div class="portfolio__data">
+                <h3 class="portfolio__title">Amazon Clone</h3>
+                <p class="portfolio__description">
+                  The 'Amazon-Clone' e-commerce project is a web application
+                  that offers a seamless online shopping experience. It includes
+                  features like user registration, product listings, shopping
+                  cart, payment processing, and order tracking. Developed using
+                  HTML, CSS, JavaScript, and React.js, the project showcases
+                  coding skills and provides a valuable learning experience for
+                  building e-commerce websites.
+                </p>
+                <a
+                  href="https://amazon-full-stack-clone.netlify.app/"
+                  class="button button--flex button--small portfolio__button"
+                  target="_blank"
+                >
+                  Demo
+                  <i class="uil uil-arrow-right button__icon"></i>
+                </a>
+              </div>
+            </div>
+
+            <!-- ====== Portfolio 2 ====== -->
+            <div class="portfolio__content grid swiper-slide">
+              <img
+                src="assets/imgs/about01.png"
+                alt=""
+                class="portfolio__img"
+              />
+
+              <div class="portfolio__data">
+                <h3 class="portfolio__title">Currently Playing</h3>
+                <p class="portfolio__description">
+                  I am currently working on a web development project to
+                  showcase my front-end skills and create an engaging user
+                  experience.
+                </p>
+                <a
+                  href="#"
+                  class="button button--flex button--small portfolio__button"
+                  target="_blank"
+                >
+                  Demo
+                  <i class="uil uil-arrow-right button__icon"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Arrows -->
+          <div class="swiper-button-next">
+            <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+          </div>
+          <div class="swiper-button-prev">
+            <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+          </div>
+          <!-- Pagination Dots -->
+          <div class="swiper-pagination"></div>
+        </div>
+      </section>
     </main>
 
     <!-- =============== Footer =============== -->
+
+    <script src="js/swiper-bundle.min.js"></script>
 
     <script src="js/main.js"></script>
   </body>
