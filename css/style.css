@@ -225,6 +225,11 @@ img {
   bottom: 0;
 }
 
+/* ====== Active Link ====== */
+.active-link{
+  color: var(--first-color);
+}
+
 /* ====== Home ====== */
 .home__container {
   gap: 1rem;
