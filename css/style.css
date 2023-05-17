@@ -226,8 +226,13 @@ img {
 }
 
 /* ====== Active Link ====== */
-.active-link{
+.active-link {
   color: var(--first-color);
+}
+
+/* ====== Change Background Header ====== */
+.scroll-header {
+  box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.15);
 }
 
 /* ====== Home ====== */
