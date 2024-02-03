@@ -507,30 +507,56 @@ img {
 }
 
 .skills__html {
-  width: 60%;
+  width: 100%;
 }
 .skills__css {
-  width: 50%;
+  width: 100%;
 }
 .skills__js {
-  width: 30%;
+  width: 80%;
 }
 .skills__react {
-  width: 10%;
+  width: 90%;
 }
 
-.skills__firebase {
-  width: 50%;
+.skills__node {
+  width: 90%;
+}
+.skills__express {
+  width: 100%;
+}
+.skills__mongodb {
+  width: 80%;
+}
+.skills__mongoose {
+  width: 100%;
+}
+.skills__graphql {
+  width: 60%;
+}
+.skills__socketio {
+  width: 40%;
+}
+
+.skills__netlify {
+  width: 90%;
+}
+.skills__githubpages {
+  width: 100%;
 }
 .skills__stripe {
-  width: 30%;
+  width: 60%;
 }
-.skills__node {
-  width: 20%;
+.skills__firebase {
+  width: 80%;
+}
+
+.skills__github {
+  width: 70%;
 }
 
 .skills__pscc {
-  width: 90%;
+  width: 50%;
 }
 .skills__kinemaster {
   width: 80%;
@@ -730,6 +756,8 @@ img {
 /* ====== Portfolio ====== */
 .portfolio__container {
   overflow: initial;
+  padding-top: 20px;
+  padding-bottom: 50px;
 }
 
 .portfolio__content {
@@ -737,10 +765,11 @@ img {
 }
 
 .portfolio__img {
-  width: 265px;
+  width: 350px;
+  height: 200px;
   border-radius: 0.5rem;
   justify-self: center;
-  height: 150px;
+  box-shadow: rgba(214, 173, 97, 1) 0px 5px 15px;
 }
 
 .portfolio__title {
