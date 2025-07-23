@@ -36,7 +36,7 @@ const skillsContent = document.getElementsByClassName("skills__content"),
 function toggleSkills() {
   let itemClass = this.parentNode.className;
 
-  for (i = 0; i < skillsContent.length; i++) {
+  for (let i = 0; i < skillsContent.length; i++) {
     skillsContent[i].className = "skills__content skills__close";
   }
   if (itemClass === "skills__content skills__close") {
@@ -61,8 +61,8 @@ tabs.forEach((tab) => {
     });
     target.classList.add("qualification__active");
 
-    tab.forEach((tab) => {
-      tab.classList.remove("qualification__active");
+    tabs.forEach((t) => {
+      t.classList.remove("qualification__active");
     });
     tab.classList.add("qualification__active");
   });
@@ -133,7 +133,7 @@ function scrollActive() {
   sections.forEach((current) => {
     const sectionHeight = current.offsetHeight;
     const sectionTop = current.offsetTop - 50;
-    sectionId = current.getAttribute("id");
+    const sectionId = current.getAttribute("id");
 
     if (scrollY > sectionTop && scrollY <= sectionTop + sectionHeight) {
       document
@@ -199,5 +199,5 @@ themeButton.addEventListener("click", () => {
   themeButton.classList.toggle(iconTheme);
   // We save the theme and the current icon that the user choose
   localStorage.setItem("selected-theme", getCurrentTheme());
-  localStorage.removeItem("selected-icon", getCurrentIcon());
+  localStorage.setItem("selected-icon", getCurrentIcon());
 });
