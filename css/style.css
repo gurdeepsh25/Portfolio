@@ -599,8 +599,12 @@ img {
   color: var(--first-color);
 }
 
+.qualification__button.qualification__active:hover {
+  color: var(--first-color);
+}
+
 .qualification__icon {
-  font-size: 1.8remm;
+  font-size: 1.8rem;
   margin-right: var(--mb-0-25);
 }
 
